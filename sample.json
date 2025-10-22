@@ -1,0 +1,210 @@
+{
+  "user_id": "user-12345",
+  "title": "Romantic Paris & Rome Getaway",
+  "destination": "Paris & Rome, Europe",
+  "start_date": "2025-06-15T00:00:00Z",
+  "end_date": "2025-06-22T00:00:00Z",
+  "inclusions": [
+    "Hotel accommodation",
+    "Daily breakfast",
+    "Guided tours"
+  ],
+  "exclusions": [
+    "Personal expenses",
+    "Travel insurance"
+  ],
+  "days": [
+    {
+      "day_number": 1,
+      "date": "2025-06-15T00:00:00Z",
+      "title": "Day 1 Title",
+      "activities": {
+        "morning": [
+          {
+            "name": "Sample Activity",
+            "description": "Description of the activity.",
+            "location": "Sample Location",
+            "duration": "2 hours"
+          }
+        ],
+        "afternoon": [],
+        "evening": []
+      }
+    },
+    {
+      "day_number": 2,
+      "date": "2025-06-16T00:00:00Z",
+      "title": "Day 2 Title",
+      "activities": {
+        "morning": [
+          {
+            "name": "Sample Activity",
+            "description": "Description of the activity.",
+            "location": "Sample Location",
+            "duration": "2 hours"
+          }
+        ],
+        "afternoon": [],
+        "evening": []
+      }
+    },
+    {
+      "day_number": 3,
+      "date": "2025-06-17T00:00:00Z",
+      "title": "Day 3 Title",
+      "activities": {
+        "morning": [
+          {
+            "name": "Sample Activity",
+            "description": "Description of the activity.",
+            "location": "Sample Location",
+            "duration": "2 hours"
+          }
+        ],
+        "afternoon": [],
+        "evening": []
+      }
+    },
+    {
+      "day_number": 4,
+      "date": "2025-06-18T00:00:00Z",
+      "title": "Day 4 Title",
+      "activities": {
+        "morning": [
+          {
+            "name": "Sample Activity",
+            "description": "Description of the activity.",
+            "location": "Sample Location",
+            "duration": "2 hours"
+          }
+        ],
+        "afternoon": [],
+        "evening": []
+      }
+    },
+    {
+      "day_number": 5,
+      "date": "2025-06-19T00:00:00Z",
+      "title": "Day 5 Title",
+      "activities": {
+        "morning": [
+          {
+            "name": "Sample Activity",
+            "description": "Description of the activity.",
+            "location": "Sample Location",
+            "duration": "2 hours"
+          }
+        ],
+        "afternoon": [],
+        "evening": []
+      }
+    },
+    {
+      "day_number": 6,
+      "date": "2025-06-20T00:00:00Z",
+      "title": "Day 6 Title",
+      "activities": {
+        "morning": [
+          {
+            "name": "Sample Activity",
+            "description": "Description of the activity.",
+            "location": "Sample Location",
+            "duration": "2 hours"
+          }
+        ],
+        "afternoon": [],
+        "evening": []
+      }
+    },
+    {
+      "day_number": 7,
+      "date": "2025-06-21T00:00:00Z",
+      "title": "Day 7 Title",
+      "activities": {
+        "morning": [
+          {
+            "name": "Sample Activity",
+            "description": "Description of the activity.",
+            "location": "Sample Location",
+            "duration": "2 hours"
+          }
+        ],
+        "afternoon": [],
+        "evening": []
+      }
+    },
+    {
+      "day_number": 8,
+      "date": "2025-06-22T00:00:00Z",
+      "title": "Day 8 Title",
+      "activities": {
+        "morning": [
+          {
+            "name": "Sample Activity",
+            "description": "Description of the activity.",
+            "location": "Sample Location",
+            "duration": "2 hours"
+          }
+        ],
+        "afternoon": [],
+        "evening": []
+      }
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Hotel Le Marais",
+      "city": "Paris",
+      "check_in_date": "2025-06-15T15:00:00Z",
+      "check_out_date": "2025-06-18T11:00:00Z",
+      "nights": 3,
+      "address": "12 Rue des Archives, Paris"
+    },
+    {
+      "name": "Trastevere Boutique Hotel",
+      "city": "Milan",
+      "check_in_date": "2025-06-18T15:00:00Z",
+      "check_out_date": "2025-06-22T11:00:00Z",
+      "nights": 4,
+      "address": "Via della Paglia 22, Rome"
+    }
+  ],
+  "flights": [
+    {
+      "flight_number": "AF1234",
+      "airline": "Air France",
+      "from": "JFK",
+      "to": "CDG",
+      "departure": "2025-06-15T07:00:00Z",
+      "arrival": "2025-06-15T18:00:00Z"
+    },
+    {
+      "flight_number": "AF5678",
+      "airline": "Air France",
+      "from": "CDG",
+      "to": "FCO",
+      "departure": "2025-06-18T14:00:00Z",
+      "arrival": "2025-06-18T16:00:00Z"
+    }
+  ],
+  "transfers": [
+    {
+      "from": "CDG Airport",
+      "to": "Hotel Le Marais",
+      "mode": "Private Car",
+      "time": "2025-06-15T19:00:00Z"
+    }
+  ],
+  "payment_plan": {
+    "amount_due": 180000,
+    "due_date": "2025-08-12T00:00:00Z",
+    "installments": [
+        {
+            "installment_number":1,
+            "amount":180000,
+            "due_date":"2025-10-12T00:00:00Z",
+            "status":"Pending"
+        }
+    ]
+  }
+}
