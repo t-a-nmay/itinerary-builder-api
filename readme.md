@@ -23,7 +23,7 @@ A production-ready RESTful API service built in Golang for managing travel itine
 ## Project Structure
 
 ```
-vigovia-itenary-api/
+itenary-api/
 ├── main.go                 # Application entry point
 ├── config/
 │   └── config.go          # Configuration file
@@ -52,13 +52,13 @@ vigovia-itenary-api/
 
 1. **Clone or create the project:**
 ```bash
-mkdir vigovia-itenary-api
-cd vigovia-itenary-api
+mkdir itenary-api
+cd itenary-api
 ```
 
 2. **Initialize Go module:**
 ```bash
-go mod init vigovia-itenary-api
+go mod init itenary-api
 ```
 
 3. **Copy all the provided files into their respective directories**
